@@ -1,10 +1,10 @@
 html {
-    height: 100%;
+
 }
 body {
     margin: 0;
     box-sizing: border-box;
-    height: 100%;
+    height: 100vh;
 }
 
 /* @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); */
@@ -29,13 +29,23 @@ body {
     bottom: 0;
 }
 
+
 #logo_Face {
     position: relative;
+    display: inline-block;
     height: 500px;
     margin-top: 40px;
     margin-left: 40px;
     text-align: center;
 }
+@media (max-width: 360px){
+    #logo_Face {
+        height: 400px;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+}
+
 
 .figure_Arrow_Config{
     display: inline-block;
@@ -44,6 +54,11 @@ body {
     width: 480px;
     height: 20px;
     margin-left: 25px;
+}
+@media (max-width: 360px){
+    .figure_Arrow_Config {
+        margin-left: -17%;
+    }
 }
 .figure_Arrow_Config div {
     display: inline-block;
@@ -63,6 +78,12 @@ body {
     margin-right: -7.5px;
     margin-left: -6.9px;
     background-color: black;
+}
+@media (max-width: 360px){
+    .line, .line_B {
+        width: 250px;
+        margin-left: px;
+    }
 }
 .square_Config {
     width: 12px;
@@ -84,9 +105,6 @@ body {
 }
 
 
-#logo_Face {
-    display: inline-block;
-}
 .info_Page_Config {
     margin: 0;
 }
@@ -96,6 +114,11 @@ body {
     margin: 45px 0 45px 0;
     animation-duration: 1.3s;
     animation-name: slide-left;
+}
+@media (max-width: 360px){
+    #name_Page {
+        font-size: 5.9em;
+    }
 }
 @keyframes slide-left {
     from {
