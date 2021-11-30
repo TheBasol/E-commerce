@@ -1,0 +1,137 @@
+html {
+
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); */
+
+#home_Section {
+    position: relative;
+    min-height: 633px;
+    height: 100%;
+    font-family: "Quicksand";
+}
+
+.bar_Home_Config {
+    width: 100%;
+    height: 40px;
+    background-color: #008f39;
+}
+#bar_Top {
+    margin-top: 0;
+}
+#bar_bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+
+#logo_Face {
+    position: relative;
+    display: inline-block;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+@media (max-width: 360px){
+    #logo_Face {
+        height: 400px;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+}
+
+
+.figure_Arrow_Config{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 480px;
+    height: 20px;
+    margin-left: 25px;
+}
+@media (max-width: 360px){
+    .figure_Arrow_Config {
+        margin-left: -17%;
+    }
+}
+.figure_Arrow_Config div {
+    display: inline-block;
+}
+.line {
+    width: 400px;
+    height: 5px;
+    transform: translateY(-104%);
+    margin-right: -7.5px;
+    margin-left: -4.5px;
+    background-color: black;
+}
+.line_B {
+    width: 400px;
+    height: 5px;
+    transform: translateY(-101%);
+    margin-right: -7.5px;
+    margin-left: -6.9px;
+    background-color: black;
+}
+@media (max-width: 360px){
+    .line, .line_B {
+        width: 250px;
+        margin-left: px;
+    }
+}
+.square_Config {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+}
+.square {
+    margin-bottom: 1.6px;
+}
+.diamond {
+    width: 15px;
+    height: 15px;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+#figure_Arrow_Bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.info_Page_Config {
+    margin: 0;
+}
+#name_Page {
+    font-size: 8.9em;
+    font-weight: 300;
+    margin: 45px 0 45px 0;
+    animation-duration: 1.3s;
+    animation-name: slide-left;
+}
+@media (max-width: 360px){
+    #name_Page {
+        font-size: 5.9em;
+    }
+}
+@keyframes slide-left {
+    from {
+        margin-left: -50%;
+        color: white;
+    }
+    to {
+        margin-left: 0;
+        color: black;
+    }
+}
+
+.info_Page_Config {
+    font-size: 2em;
+    font-weight: 360;
+}
