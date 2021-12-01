@@ -1,0 +1,54 @@
+/*Flechas*/
+
+.figure_Arrow_Config{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 480px;
+    height: 20px;
+    margin-left: 25px;
+}
+
+.figure_Arrow_Config div {
+    display: inline-block;
+}
+.line {
+    width: 400px;
+    height: 5px;
+    transform: translateY(-104%);
+    margin-right: -7.5px;
+    margin-left: -4.5px;
+    background-color: black;
+}
+.line_B {
+    width: 400px;
+    height: 5px;
+    transform: translateY(-101%);
+    margin-right: -6px;
+    margin-left: -6.9px;
+    background-color: black;
+}
+
+.square_Config {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+}
+.square {
+    margin-bottom: 1.6px;
+}
+.diamond {
+    width: 15px;
+    height: 15px;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+#figure_Arrow_Bottom {
+
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+

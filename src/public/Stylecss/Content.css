@@ -1,0 +1,91 @@
+
+/*Diseño de contenido*/
+
+#section_Inicio{
+    align-content: center;
+    display: flex;
+    padding-top: 8%;
+    padding-bottom:8%;
+
+}
+
+#inicio{
+    line-height: 150px;
+    box-sizing: border-box;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 50vh;
+    height:70vh;
+}
+
+#logo_Face {
+    padding:45px;
+    position: relative;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#div_Flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    align-content: center;
+}
+
+.img_Clothes{
+    display: none;
+}
+
+#logo_Face{
+    padding:0;
+    margin:20px;
+
+}
+
+#section_Inicio{
+    align-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+nav{
+    background-color: olive;
+    display: contents;
+
+}
+
+#home_Section {
+    font-family: "Quicksand" ;
+    position: relative;
+    min-height: 633px;
+    height: 100%;
+}
+
+
+.info_Page_Config {
+    margin: 0;
+}
+
+#name_Page {
+    font-size: 8.5em;
+    font-weight: 300;
+    margin: 45px 0 45px 0;
+    animation-duration: 1.4s;
+    animation-name: slide-left;
+}
+
+.info_Page_Config {
+    font-size: 2em;
+    font-weight: 360;
+}
+
+a,h2{
+    text-decoration: none;
+}

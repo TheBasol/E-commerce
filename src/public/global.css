@@ -1,0 +1,29 @@
+
+/*Diseño global*/
+
+@import url(./Stylecss/@media.css);
+@import url(./Stylecss/Content.css);
+@import url(./Stylecss/Arrows.css);
+@import url(./Stylecss/Bar.css);
+
+@font-face {
+    font-family:"Quicksand";
+    src: url(./Fonts/Quicksand-Light.ttf) format("truetype")
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+html #home_Body{
+    border:0;
+    margin:0;
+    padding:0;
+}
+body {
+    box-sizing: border-box;
+    height:100% ;
+}
+#homme_Body{
+    display: flex;
+}
