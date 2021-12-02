@@ -2,12 +2,9 @@
 
 @import url(./Stylecss/@media.css);
 @import url(./Stylecss/Content.css);
-@import url(./Stylecss/Arrows.css);
 @import url(./Stylecss/Bar.css);
+@import url(./Stylecss/Arrows.css);
 
-:root{
-    --nav-color: #4e4f50 ;
-}
 
 @font-face {
     font-family:"Quicksand";
@@ -33,29 +30,4 @@ body {
     display: flex;
 }
 
-.bar_Home_Config{
-    background-color: var(--nav-color);
-}
 
-.bar_Home_footer{
-    background-color: var(--nav-color);
-}
-
-.container_icons{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.container_icons div{
-    display: flex;
-    font-size: 1.2rem;
-    width: 11em;
-    margin-right: 1.4em;
-}
-
-.container_icons div img{
-    width: 22%;
-    height: 80%;
-    margin-right: 10px;
-    margin-top: 6px;
-}
