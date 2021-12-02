@@ -1,3 +1,3 @@
 module.exports = (io) => {
-    console.log('Archivo socket')
+    console.log('Archivo socket activo')
 }
